@@ -1,0 +1,40 @@
+1. enter-> take ticket-> park at slot-> pay at exit gate-> take invoice.
+2. type of vehicle :
+    small: two wheel
+    medium: car
+    large: bus
+3. how the payment is calculated:
+    dynamic pricing.
+4. mode of payment: cash, online, card
+5. invoice attributes: Vehicle number, entry and exit time, total amount.
+6. ticket: Vehicle number, entry and exit time, parking slot, floor no.
+7. multiple entry and exit gates.
+8. partial payment option.
+9. parking lot main entity
+10. entry gate and exit gate has a relatoion ship with parking lot
+11. operator should be at gate
+12. parking slot inside the parking lot.
+13. veichile (slot has a vehicle)
+14. Ticket (vehicle has it)
+15. invoice and payment (ticket has)
+16. operator (has display board). can have methods like get available slot, display all slots.
+
+
+
+
+classes:
+1.parking lot
+2.entry gate
+3.exit gate
+4.parking slot
+5.vehicle type
+6.vehicle/user details
+7.ticket
+8.invoice
+9.display board
+10. payment
+
+
+
+
+
